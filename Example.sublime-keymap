@@ -1,0 +1,4 @@
+[
+  { "keys": ["ctrl+tab"], "command": "document_tabs_next" },
+  { "keys": ["ctrl+shift+tab"], "command": "document_tabs_prev" }
+]

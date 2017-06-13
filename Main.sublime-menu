@@ -1,0 +1,27 @@
+[
+  {
+    "id": "preferences",
+    "children": [
+      {
+        "id": "package-settings",
+        "children": [
+          {
+            "caption": "Document Tabs",
+            "children": [
+              {
+                "caption": "Example Key Bindings",
+                "command": "document_tabs_open_file",
+                "args": { "file": "Example.sublime-keymap" }
+              },
+              {
+                "caption": "Key Bindings – User",
+                "command": "open_file",
+                "args": { "file": "${packages}/User/Default (${platform}).sublime-keymap" }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
