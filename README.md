@@ -25,12 +25,12 @@ To add key bindings, go to **Preferences ▸ Package Settings ▸ Document Tabs 
 
 Remember that you can replace the suggested `ctrl+tab`/`ctrl+shift+tab` with whatever you prefer.
 
-Personally, I prefer the consistency of the system-wide shortcut, so I use that for this plugin and move Sublime Text's view-cycle key bindings to `option+tab`/`option+shift+tab` like so:
+Personally, I prefer the consistency of the system-wide shortcut, so in my own keybindings I've moved Sublime Text's internal key bindings to `option+tab`/`option+shift+tab` and am using `ctrl+tab`/`ctrl+shift+tab` to cycle document tabs:
 
 ```
 [
-  { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
-  { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
+  { "keys": ["ctrl+tab"], "command": "document_tabs_next" },
+  { "keys": ["ctrl+shift+tab"], "command": "document_tabs_prev" },
 
   { "keys": ["option+tab"], "command": "next_view_in_stack" },
   { "keys": ["option+shift+tab"], "command": "prev_view_in_stack" }
